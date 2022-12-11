@@ -1,0 +1,15 @@
+{
+  "name": "line-chat-gpt-bot",
+  "version": "0.0.1",
+  "description": "An example LINE bot with chatGPT support",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "chatgpt": "^2.0.6",
+    "express": "^4.18.2"
+  }
+}
